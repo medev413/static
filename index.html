@@ -1,49 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>My Static Web App</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to AWS VPC Demo in AZ 1B</h1>
-	<h2> You are accessing this site using S3 Bucket</h2>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm a web developer with a passion for creating beautiful and functional websites. I love learning new technologies and improving my skills.</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Here are some of my recent projects:</p>
-        <ul>
-            <li>Project One - A simple static website</li>
-            <li>Project Two - A responsive blog</li>
-            <li>Project Three - An e-commerce site mockup</li>
-        </ul>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: myemail@example.com</p>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
-    </footer>
+  <div class="container">
+    <h1>Hello from Static Web App</h1>
+    <p>This is deployed using Nginx.</p>
+    <button onclick="sayHello()">Click Me</button>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
